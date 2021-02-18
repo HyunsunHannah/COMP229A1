@@ -1,0 +1,45 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+<!-- Main Content -->
+<Main Class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Contact</h1>
+
+<form method="post" action="/contact" novalidate>
+  <div class="container">
+	<form>
+		<div class="field" tabindex="1">
+			<label for="username">
+				<i class="far fa-user"></i>Your Name
+			</label>
+			<input name="username" type="text" placeholder="e.g. Hannah Shin" required>
+		</div>
+		<div class="field" tabindex="2">
+			<label for="email">
+				<i class="far fa-envelope"></i>Your Email
+			</label>
+			<input name="email" type="text" placeholder="email@domain.com" required>
+		</div>
+		<div class="field" tabindex="3">
+			<label for="message">
+				<i class="far fa-edit"></i>Your Message
+			</label>
+			<textarea name="message" placeholder="Hi, there:) I'm here for you!" required></textarea>
+		</div>
+</div>
+		<a button class="btn btn-light" type="button" href="/">Send</a></button>
+   </div>
+   </div>
+	</form>
+ 
+
+</Main>
+
+
+
+<%- include partials/bottom_nav.ejs %>
+
+<%- include partials/footer.ejs %>

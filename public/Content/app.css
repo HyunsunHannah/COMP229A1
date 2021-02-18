@@ -1,1 +1,150 @@
 /* custom css goes here */
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.logo {
+    width: 70%;
+    height: auto;
+}
+
+/* Main Navbar */
+.navbar {
+    min-height: 6vh;
+}
+
+.nav-link:hover {
+    color: #34708B !important;
+}
+
+/* Generic */
+.jumbotron {
+    margin-bottom: 0 !important;
+    color: white;
+    min-height: 88vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/Assets/images/background.jpeg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    background-position: top;
+    background-position: fixed;
+}
+
+.title {
+    margin-bottom: 2%;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+i {
+    padding: 7%;
+}
+
+.img-border {
+    border: 3px solid aliceblue;
+    border-radius: 3px;
+}
+
+.col-12 {
+    margin-bottom: 20%;
+    
+}
+
+/* About*/
+.info img {
+    width: 60%;
+    height: 60%;
+}
+
+.summary {
+    margin-bottom: 25px;
+}
+
+.info .qualities {
+    height: 130px;
+    margin: 5px 0;
+}
+
+.qualities h5 {
+    padding-top: 20px;
+}
+
+/* Projects */
+.project-pic img {
+    width: 80%;
+}
+
+.card {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.card-body {
+    padding-bottom: 0 !important;
+}
+
+.card-text {
+    margin-top: 10px;
+}
+
+.card-footer {
+    border: none !important;
+}
+
+.card .btn {
+    margin: 0;
+}
+
+/* Services */
+.services .h3 {
+    margin: 30px 0;
+}
+
+/* Contact */
+
+label {
+  width: 300px;
+  margin: auto;
+}
+
+
+form input,
+form textarea {
+    width: 600px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+}
+
+form textarea {
+    min-height: 200px;
+    border: none;
+    border-radius: 4px;
+}
+
+.contact a {
+    color: white;
+}
+
+.contact a:hover {
+    color: white;
+
+}
+
+#contact-form {
+    margin-top: 20px;
+}
+
+.btn {
+    float: right;
+}
+
+
+
